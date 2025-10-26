@@ -74,7 +74,7 @@ class DMXLightEntity(LightEntity):
 
         self._attr_unique_id = f"dmx_{self.dmx_id:03d}"
         self._attr_device_info = DeviceInfo(
-            default_name=str(self.entity_description.name),
+            name=str(self.entity_description.name),
             identifiers={
                 (
                     str(self.entity_description.name),
