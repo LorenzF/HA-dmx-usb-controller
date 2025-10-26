@@ -1,0 +1,16 @@
+{
+    "config": {
+        "step": {
+            "user": {
+                "description": "State the name of your light and the DMX ID related to it, only one usb is currently supported",
+                "data": {}
+            }
+        },
+        "error": {
+            "unknown": "Unknown error occurred."
+        },
+        "abort": {
+            "already_configured": "This entry is already configured."
+        }
+    }
+}

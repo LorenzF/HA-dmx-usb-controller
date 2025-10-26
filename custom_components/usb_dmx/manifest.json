@@ -1,0 +1,16 @@
+{
+  "domain": "usb_dmx",
+  "name": "USB DMX",
+  "codeowners": [
+    "@LorenzF"
+  ],
+  "config_flow": true,
+  "documentation": "https://github.com/LorenzF/HA-dmx-usb-controller",
+  "iot_class": "assumed_state",
+  "issue_tracker": "https://github.com/LorenzF/HA-dmx-usb-controller/issues",
+  "requirements": [
+    "PyDMXControl==1.6.3",
+    "flask==2.2.5"
+  ],
+  "version": "0.1.0"
+}

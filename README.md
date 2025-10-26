@@ -1,3 +1,9 @@
+# USB DMX
+
+This repository is designed to control DMX interfaces using a USB dongle.
+
+Originally templated from [here](https://github.com/ludeeus/integration_blueprint)
+
 # Notice
 
 The component and platforms in this repository are not meant to be used by a
